@@ -1,0 +1,17 @@
+{
+    "Lua.diagnostics.globals": [
+        "data",
+        "defines",
+        "game",
+        "global",
+        "log",
+        "prototypes",
+        "script",
+        "serpent",
+        "util"
+    ],
+    "Lua.diagnostics.disable": [
+        "lowercase-global"
+    ],
+    "Lua.runtime.version": "Lua 5.2"
+}

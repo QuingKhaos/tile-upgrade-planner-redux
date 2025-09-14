@@ -1,0 +1,14 @@
+{
+    "name": "tile-upgrade-planner-redux",
+    "version": "2.0.0",
+    "factorio_version": "2.0",
+    "title": "Tile Upgrade Planner Redux",
+    "author": "calcwizard, MeteorSwarm, QuingKhaos",
+    "homepage": "",
+    "dependencies": [
+        "base",
+        "! tile-upgrade-planner",
+        "! tile-upgrade-planner-muluna"
+    ],
+    "description": "Adds an upgrade planner that can be used to upgrade tiles. Redux fork with additional features and bug fixes."
+}

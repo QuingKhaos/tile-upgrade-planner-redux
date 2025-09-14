@@ -1,0 +1,59 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 2025-09-14
+  Info:
+    - Forked from tile-upgrade-planner-muluna
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 2025-07-20
+  Optimizations:
+    - Eliminated passive performance loss and fixed issues with undo indexing. This comes at the cost of higher lag spikes when processing massive numbers of tile upgrades.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2025-05-06
+  Compatibility:
+    - Added incompatibility flag with original tile upgrade planner.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2025-04-29
+  Bugfixes:
+    - Fixed crash on load with item-cam-2. https://mods.factorio.com/mod/item-cam-2/discussion/680f58ea7d79b0b42bfddbb8
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2025-04-29
+  Locale:
+    - Changed mod name
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2025-04-29
+  Features:
+    - Initial fork
+---------------------------------------------------------------------------------------------------
+Version: 20.0.1
+Date: 2024-11-24
+  Bugfixes:
+    - Fixed a desync when connecting while tiles were processing.
+---------------------------------------------------------------------------------------------------
+Version: 20.0.0
+Date: 2024-10-28
+  Features:
+    - Updated to Factorio version 2.0
+    - Removes ghosts if they would upgrade to the existing tile.
+---------------------------------------------------------------------------------------------------
+Version: 19.0.0
+Date: 2020-12-07
+  Features:
+    - Updated to Factorio version 1.1
+---------------------------------------------------------------------------------------------------
+Version: 18.1.0
+Date: 2020-12-07
+  Features:
+    - Upgrades tile ghosts similar to how the upgrade planner upgrades entity ghosts.
+  Bugfixes:
+    - Ignores tiles that overlap with existing ghosts, preventing duplicate ghosts.
+    - Properly tracks the settings of individual planners instead of all secretly being the same planner.
+---------------------------------------------------------------------------------------------------
+Version: 18.0.0
+Date: 2020-07-03
+  Features:
+    - Adds an upgrade planner that upgrades tiles.
