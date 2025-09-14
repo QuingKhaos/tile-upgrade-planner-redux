@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.1.0
+Date: 2025-09-14
+  Compatibility:
+    - If Electric Tiles are installed, the planner default config is replaced with upgrades from normal to electric tiles.
+---------------------------------------------------------------------------------------------------
 Version: 2.0.0
 Date: 2025-09-14
   Info:
