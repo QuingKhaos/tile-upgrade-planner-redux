@@ -3,4 +3,11 @@
 
 -- If you would like to add a preset addon for your own mod, you will need to implement the remote interface. Please see the README for more info.
 
-preset_addons = {}
+preset_addons = {
+  ["Muluna"] = {
+    required_mods = {"planet-muluna"},
+    tile_mappings = {
+      {source = "space-platform-foundation", target = "low-density-space-platform-foundation"},
+    },
+  },
+}
