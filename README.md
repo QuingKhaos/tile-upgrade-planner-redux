@@ -18,3 +18,4 @@ If you want to see default config support for other mods, feel free to open a di
 
 - Thanks to [calcwizard](https://mods.factorio.com/user/calcwizard) for creating the original mod.
 - Thanks to [MeteorSwarm](https://mods.factorio.com/user/MeteorSwarm) for the improvements in their Muluna fork.
+- Thanks to the [Milestones](https://mods.factorio.com/mod/Milestones) mod, which was a good template to implement to presets feature and remote interface.

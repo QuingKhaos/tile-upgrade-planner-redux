@@ -1,5 +1,5 @@
-local util = require("util")
 local shared = require("shared")
+local util = require("util")
 
 function verify_filters(filters)
   local output = {}
@@ -113,7 +113,7 @@ function rebuild_planner(player, table, planner_id)
 end
 
 function create_planner(player, table, planner_id)
-  storage.planner[planner_id] = storage.planner[planner_id] or util.copy(shared.default_mapping)
+  storage.planner[planner_id] = storage.planner[planner_id] or util.copy(storage.loaded_tile_mappings)
 end
 
 function open_planner(player, planner_id)
@@ -178,14 +178,6 @@ function planner_add_row(event)
     end
   end
 end
-
-script.on_init(function(event)
-  storage = {
-    guis = {},
-    planner = {},
-    tasks = {front = 1, back = 1},
-  }
-end)
 
 script.on_event(defines.events.on_player_cursor_stack_changed, function(event)
   local player = game.get_player(event.player_index)
