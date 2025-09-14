@@ -1,6 +1,10 @@
 ---------------------------------------------------------------------------------------------------
 Version: 2.2.0
-Date: ???
+Date: 2025-09-14
+  Features:
+    - Added automatic preset selection based on currently installed mods.
+    - Added support for preset addons that can add to presets when certain mods are installed.
+    - Added remote interfaces for adding presets and preset addons.
   Compatibility:
     - Re-add support for Muluna low-density space platform foundation upgrade path if Muluna is installed.
 ---------------------------------------------------------------------------------------------------
