@@ -1,6 +1,8 @@
 -- Only one of these presets can be used.
 -- The preset with the highest number of "required mods" matches will be selected.
 
+-- If you would like to add a preset for your own mod, you will need to implement the remote interface. Please see the README for more info.
+
 presets = {
   ["Vanilla"] = {
     required_mods = {},
