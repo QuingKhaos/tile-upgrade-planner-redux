@@ -1,6 +1,6 @@
 # Tile Upgrade Planner Redux
 
-[![Factorio Mod Portal page](https://img.shields.io/badge/dynamic/json?color=orange&label=Factorio&query=downloads_count&suffix=%20downloads&url=https%3A%2F%2Fmods.factorio.com%2Fapi%2Fmods%2Ftile-upgrade-planner-redux)](https://mods.factorio.com/mod/tile-upgrade-planner-redux)
+[![Factorio Mod Portal page](https://img.shields.io/badge/dynamic/json?color=orange&label=Factorio&query=downloads_count&suffix=%20downloads&url=https%3A%2F%2Fmods.factorio.com%2Fapi%2Fmods%2Ftile-upgrade-planner-redux)](https://mods.factorio.com/mod/tile-upgrade-planner-redux) [![Crowdin Translate](https://img.shields.io/badge/Crowdin-Translate-brightgreen)](https://crowdin.com/project/factorio-mods-localization)
 
 Adds an upgrade planner that can be used to upgrade tiles. Redux fork with additional features and bug fixes.
 
