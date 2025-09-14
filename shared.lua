@@ -48,6 +48,11 @@ if check_for_active_mod("electric-tiles") then
   }
 end
 
+-- Muluna support
+if check_for_active_mod("planet-muluna") then
+  table.insert(default_mapping, {source = "space-platform-foundation", target = "low-density-space-platform-foundation"})
+end
+
 return {
   names = {
     planner = "tile-upgrade-planner",

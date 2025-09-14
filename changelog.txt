@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.2.0
+Date: ???
+  Compatibility:
+    - Re-add support for Muluna low-density space platform foundation upgrade path if Muluna is installed.
+---------------------------------------------------------------------------------------------------
 Version: 2.1.0
 Date: 2025-09-14
   Compatibility:

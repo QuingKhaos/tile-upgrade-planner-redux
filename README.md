@@ -11,6 +11,7 @@ Hold the upgrade planner in your hand to configure it. Hold shift to clear tile 
 The tile upgrade planner should be compatible with any tile from other mods. If the following mods are detected, the default config is changed accordingly.
 
 - [Electric Tiles](https://mods.factorio.com/mod/electric-tiles): The default config is completely replaced with an upgrade path to replace each vanilla tile with the corresponding electric tile.
+- [Muluna, Moon of Nauvis](https://mods.factorio.com/mod/planet-muluna): Adds a default config to update space platform foundations to low-density space platform foundations.
 
 If you want to see default config support for other mods, feel free to open a discussion thread on the mod portal or a GitHub issue.
 
