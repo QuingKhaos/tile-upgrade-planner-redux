@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 2.2.0
-Date: 2025-09-14
+Date: 2025-09-15
   Features:
     - Added automatic preset selection based on currently installed mods.
     - Added support for preset addons that can add to presets when certain mods are installed.
