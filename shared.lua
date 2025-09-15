@@ -12,21 +12,7 @@ function check_for_active_mod(name)
   return false
 end
 
-local blacklist = {
-  "landfill"
-}
-
 local tile_filters = {{filter="item-to-place"}}
---[[
-for _, v in pairs(blacklist) do
-  tile_filters[#tile_filters + 1] = {
-    filter = "name",
-    name = v,
-    mode = "and",
-    invert = true
-  }
-end
---]]
 
 return {
   names = {

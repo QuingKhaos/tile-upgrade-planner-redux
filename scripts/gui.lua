@@ -39,47 +39,6 @@ function update_planner(event)
         planner_data[tonumber(number)][type] = event.element.elem_value
       end
     end
-
-    update_label(planner, item_number)
-  end
-end
-
-function update_label(planner, planner_number)
-  --[[
-  local planner_data = storage.planner[planner_number]
-  local label = ""
-
-  for k, v in pairs(planner_data) do
-    if v.source and v.target then
-      local new_line = ""
-
-      if label ~= "" then
-        new_line = "\n"
-      end
-
-      label = label .. new_line .. "[tile = " .. v.source .. "] -> [tile = " .. v.target .. "]"
-    end
-  end
-
-  planner.label = label
-  --]]
-end
-
-function save_planner(root, planner_id)
-  local table = root["table"]
-
-  if not storage.planner[planner_id] then
-      storage.planner[planner_id] = {}
-  end
-
-  local planner_data = storage.planner[planner_id]
-
-  for _, child in pairs(table.children) do
-    if string:find(child.name, "source") then
-
-    elseif string:find(child.name, "target") then
-
-    end
   end
 end
 
@@ -157,7 +116,6 @@ function remove_row(event)
 
       close_planner(event.player_index)
       open_planner(player, planner_id)
-      update_label(planner, planner_id)
     end
   end
 end
