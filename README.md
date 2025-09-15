@@ -1,6 +1,6 @@
-# Tile Upgrade Planner Redux
+[![Factorio Mod Portal page](https://img.shields.io/badge/dynamic/json?color=orange&label=Factorio&query=downloads_count&suffix=%20downloads&url=https%3A%2F%2Fmods.factorio.com%2Fapi%2Fmods%2Ftile-upgrade-planner-redux&style=for-the-badge)](https://mods.factorio.com/mod/tile-upgrade-planner-redux) [![Crowdin Translate](https://img.shields.io/badge/Crowdin-Translate-brightgreen?style=for-the-badge)](https://crowdin.com/project/factorio-mods-localization) [![](https://img.shields.io/github/issues/QuingKhaos/tile-upgrade-planner-redux/bug?label=Bug%20Reports&style=for-the-badge)](https://github.com/QuingKhaos/tile-upgrade-planner-redux/issues?q=is%3Aissue%20state%3Aopen%20label%3Abug) [![](https://img.shields.io/github/issues-pr/QuingKhaos/tile-upgrade-planner-redux?label=Pull%20Requests&style=for-the-badge)](https://github.com/QuingKhaos/tile-upgrade-planner-redux/pulls)
 
-[![Factorio Mod Portal page](https://img.shields.io/badge/dynamic/json?color=orange&label=Factorio&query=downloads_count&suffix=%20downloads&url=https%3A%2F%2Fmods.factorio.com%2Fapi%2Fmods%2Ftile-upgrade-planner-redux)](https://mods.factorio.com/mod/tile-upgrade-planner-redux) [![Crowdin Translate](https://img.shields.io/badge/Crowdin-Translate-brightgreen)](https://crowdin.com/project/factorio-mods-localization)
+# Tile Upgrade Planner Redux
 
 Adds an upgrade planner that can be used to upgrade tiles. Redux fork with additional features and bug fixes.
 
